@@ -8,7 +8,6 @@ st.set_page_config(layout="wide")
 import pandas as pd
 import numpy as np
 import matplotlib
-import spicy
 import itertools
 from itertools import chain
 from itertools import repeat
