@@ -301,8 +301,6 @@ def create_graph_FO(data):
 # ////////////////////////////////  FILE UPLOAD NLP  //////////////////////////////////////
 
 session_01 = pd.read_csv("https://raw.githubusercontent.com/Julie-Milovanovic/design-space-map/6fc51ac7d63f56ecadd86888b63d18a1f373f664/assets/session01.csv")
-#session_02 = pd.read_csv("https://raw.githubusercontent.com/Julie-Milovanovic/design-space-map/main/assets/session02.csv")
-
 
 
 # ////////////////////////////////  DISPLAY ON PAGE  //////////////////////////////////////
@@ -321,10 +319,9 @@ st.sidebar.markdown("## Side Panel")
 st.sidebar.markdown("Use this panel to select a process")
 st.sidebar.subheader("Select items")
 
-session_list = [session_01, session_02]
+
 process_list = ['Synthesis','Analysis','Evaluation','Reformulation 1','Reformulation 2']
 
-#session_select = st.sidebar.selectbox('Session', session_list)
 process_selected = st.sidebar.selectbox('Process', process_list)
 
 with col1:
