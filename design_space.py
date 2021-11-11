@@ -30,6 +30,7 @@ hv.opts.defaults(
 
 # for NLP analysis
 import nltk
+nltk.download('stopwords')
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
