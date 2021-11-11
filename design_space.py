@@ -7,11 +7,11 @@ st.set_page_config(layout="wide")
 # data analysis packages
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
+import matplotlib
+import spicy
 import itertools
 from itertools import chain
 from itertools import repeat
-
 
 # for network 
 import networkx as nx
@@ -20,6 +20,7 @@ from holoviews import opts
 from bokeh.models import HoverTool
 import xarray as xr
 import datashader as ds
+import skimage
 from holoviews.operation.datashader import datashade, bundle_graph
 
 hv.extension('bokeh')
