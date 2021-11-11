@@ -19,7 +19,6 @@ from holoviews import opts
 from bokeh.models import HoverTool
 import xarray as xr
 import datashader as ds
-import skimage
 from holoviews.operation.datashader import datashade, bundle_graph
 
 hv.extension('bokeh')
