@@ -7,6 +7,7 @@ st.set_page_config(layout="wide")
 # data analysis packages
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
 import itertools
 from itertools import chain
 from itertools import repeat
