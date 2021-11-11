@@ -1,5 +1,6 @@
 bokeh==2.4.1
 pandas==1.2.4
+matplotlib==3.3.4
 holoviews==1.14.6
 networkx==2.5
 nltk==3.6.1
