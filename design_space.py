@@ -314,8 +314,7 @@ session_01 = pd.read_csv("https://raw.githubusercontent.com/Julie-Milovanovic/de
 # Organization page
 st.title("Representation of the design space for one design session of a team")
 st.subheader("About the graph")
-st.markdown('This graph represents design concepts formulated by designer during a design session.\ 
-		The deisgn re')
+st.markdown('This graph represents design concepts formulated by designer during a design session. The design re')
 st.markdown("Select process on the side panel to characterize the design space.")
 
 
