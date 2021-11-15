@@ -304,7 +304,7 @@ def create_graph_FO(data):
 
 # ////////////////////////////////  FILE UPLOAD NLP  //////////////////////////////////////
 
-session_01 = pd.read_csv("https://raw.githubusercontent.com/Julie-Milovanovic/design-space-map/6fc51ac7d63f56ecadd86888b63d18a1f373f664/assets/session01.csv")
+session_01 = pd.read_csv("https://raw.githubusercontent.com/Julie-Milovanovic/design-space-map/main/assets/session01.csv")
 #session_02 = pd.read_csv("https://raw.githubusercontent.com/Julie-Milovanovic/design-space-map/main/assets/session02.csv")
 
 
