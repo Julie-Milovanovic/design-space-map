@@ -2,7 +2,7 @@ bokeh==2.4.1
 setuptools==60.10.0
 pandas==1.2.4
 matplotlib==3.3.4
-holoviews==1.14.6
+holoviews==1.14.8
 networkx==2.5
 nltk==3.6.1
 numpy== 1.20.1
