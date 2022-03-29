@@ -1,4 +1,5 @@
 bokeh==2.4.1
+setuptools==60.10.0
 pandas==1.2.4
 matplotlib==3.3.4
 holoviews==1.14.6
@@ -10,4 +11,3 @@ scikit-learn==0.24.1
 xarray==0.20.0
 datashader==0.13.0
 scikit-image==0.18.3
-setuptools==60.10.0
